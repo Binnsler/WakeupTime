@@ -1,0 +1,77 @@
+.container{
+	width: 100%;
+	height: 70vh;
+}
+.outerShell{
+	position: relative;
+	background-color: #57291b;
+	width: 60%;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 2vh 1%;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 10px;
+}
+
+.innerShell{
+	background-color: #150905;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 50%;
+	transform: translateX(-50%);
+	width: 70%;
+	padding-top: 2vh;
+	border-radius: 5px;
+}
+
+.pmText{
+	color: white;
+	float: left;
+}
+
+.autoText{
+	color: white;
+	float: left;
+}
+
+.amLabelFreq{
+	color: white;
+	margin: 0;
+	padding-left: 22%;
+	letter-spacing: .1em;
+}
+
+.pmLabelFreq{
+	color: white;
+	margin: 0;
+	padding-left: 22%;
+	letter-spacing: .1em;
+
+}
+
+.clockScreen{
+	background-color: #7a2313;
+	margin: 0 20% 0 20%;
+	border-radius: 5px;
+}
+
+.amPmIndic {
+	color: #c52e21;
+	display: inline-block;
+	font-size: 3em ;
+	margin: 0;
+}
+
+.clockText{
+	color: #c52e21;
+	display: inline-block;
+	font-size: 4em;
+	margin: 0;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 45%;
+	transform: translateX(-50%);
+}
